@@ -2,7 +2,7 @@ package negocio;
 
 import java.util.Scanner;
 
-public class PruebaFactura {
+public class Pruebafactura {
     public static void main() {
         Scanner entrada = new Scanner(System.in);
 

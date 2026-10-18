@@ -1,7 +1,7 @@
 package negocio;
 import javax.swing.JOptionPane;
 
-public class PruebaFecha {
+public class Pruebafecha {
     public static void main() {
         int mes = Integer.parseInt(JOptionPane.showInputDialog("Mes (1-12):"));
         while (mes < 1 || mes > 12) {

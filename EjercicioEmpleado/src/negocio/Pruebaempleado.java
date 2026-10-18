@@ -2,7 +2,7 @@ package negocio;
 
 import javax.swing.JOptionPane;
 
-public class PruebaEmpleado {
+public class Pruebaempleado {
     public static void main() {
         //Empleado 1
         String nombre1 = JOptionPane.showInputDialog("Empleado 1 - Primer nombre:");
