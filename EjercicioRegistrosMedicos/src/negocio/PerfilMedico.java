@@ -49,7 +49,12 @@ public class PerfilMedico {
         }
     }
     public String getSexo(){
-        return sexo;
+        if(sexo.equals("M")){
+            return "Masculino";
+        } else{
+            return "Femenino";
+        }
+
     }
 
     public void setMesNacimiento(int mesNacimiento) {
