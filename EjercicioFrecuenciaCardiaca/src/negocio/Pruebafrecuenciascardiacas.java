@@ -46,7 +46,7 @@ public class Pruebafrecuenciascardiacas {
             anio = Integer.parseInt(JOptionPane.showInputDialog("Año invalido. Ingrese un año entre 1900 y " + anioActual + ":"));
         }
 
-        FrecuenciasCardiacas persona = new FrecuenciasCardiacas(nombre, apellido, mes, dia, anio);
+        Frecuenciascardiacas persona = new Frecuenciascardiacas(nombre, apellido, mes, dia, anio);
 
         int edad = persona.getEdad(diaActual, mesActual, anioActual);
 

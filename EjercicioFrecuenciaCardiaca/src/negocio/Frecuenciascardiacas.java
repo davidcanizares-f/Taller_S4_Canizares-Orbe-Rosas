@@ -1,13 +1,13 @@
 package negocio;
 
-public class FrecuenciasCardiacas {
+public class Frecuenciascardiacas {
     private String primerNombre;
     private String apellido;
     private int mesNacimiento;
     private int diaNacimiento;
     private int anioNacimiento;
 
-    public FrecuenciasCardiacas(String primerNombre, String apellido, int mesNacimiento, int diaNacimiento, int anioNacimiento) {
+    public Frecuenciascardiacas(String primerNombre, String apellido, int mesNacimiento, int diaNacimiento, int anioNacimiento) {
         setPrimerNombre(primerNombre);
         setApellido(apellido);
         setMesNacimiento(mesNacimiento);
@@ -67,7 +67,7 @@ public class FrecuenciasCardiacas {
 
     public int getEdad(int diaActual, int mesActual, int anioActual) {
         int edad = anioActual - anioNacimiento;
-        // Si todavia no ha cumplido anios este anio, se resta 1
+        // Si todavia no ha cumplido años este año, se resta 1
         if (mesActual < mesNacimiento || (mesActual == mesNacimiento && diaActual < diaNacimiento)) {
             edad--;
         }
