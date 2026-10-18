@@ -22,7 +22,7 @@ public class PruebaEmpleado {
 
         Empleado e1= new Empleado(nombre1, apellido1, salario1);
 
-        //Empleado 2
+        //empleado 2
         String nombre2 = JOptionPane.showInputDialog("Empleado 2 - Primer nombre:");
         while (nombre2 == null || nombre2.isBlank()) {
             nombre2 = JOptionPane.showInputDialog("No puede estar vacio. Primer nombre:");
