@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Pruebafrecuenciascardiacas {
     public static void main() {
-        // Fecha actual (se necesita para calcular la edad)
+        //Fecha actual (se necesita para calcular la edad)
         int diaActual = Integer.parseInt(JOptionPane.showInputDialog("Fecha de hoy - Dia (1-31):"));
         while (diaActual < 1 || diaActual > 31) {
             diaActual = Integer.parseInt(JOptionPane.showInputDialog("Dia invalido. Ingrese un dia entre 1 y 31:"));

@@ -13,9 +13,9 @@ public class Pruebafecha {
             dia = Integer.parseInt(JOptionPane.showInputDialog("Dia invalido. Ingrese un dia entre 1 y 31:"));
         }
 
-        int anio = Integer.parseInt(JOptionPane.showInputDialog("Anio:"));
+        int anio = Integer.parseInt(JOptionPane.showInputDialog("Año:"));
         while (anio < 1) {
-            anio = Integer.parseInt(JOptionPane.showInputDialog("Anio invalido. Ingrese un anio mayor que 0:"));
+            anio = Integer.parseInt(JOptionPane.showInputDialog("Año invalido. Ingrese un anio mayor que 0:"));
         }
 
         Fecha fecha = new Fecha(mes, dia, anio);
